@@ -1,0 +1,46 @@
+/vendor
+/node_modules
+/public/hot
+/storage/*.key
+/.idea
+/.vscode
+/.phpunit.result.cache
+/.env
+.env.backup
+.env.*.backup
+
+# Laravel Mix
+/public/mix-manifest.json
+/public/css/*.css.map
+/public/js/*.js.map
+
+# NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer
+composer.phar
+
+# Caches
+/storage/framework/cache/data/*
+/storage/logs/*.log
+
+# IDE Specific
+*.swo
+*.swp
+*.swn
+*.sw?
+
+# Backup files
+*.bak
+*.tmp
+*.orig
+
+# Deployment specific files
+Homestead.yaml
+Homestead.json
+.env.testing
+.env.dusk.local
+.env.production.local
+.DS_Store
