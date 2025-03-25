@@ -8,7 +8,7 @@ $parsedown->setSafeMode(false); // pour éviter le HTML non désiré
 $docsDir = __DIR__ . '/docs/';
 
 // Récupérer le fichier demandé dans l'URL
-$file = isset($_GET['file']) ? basename($_GET['file']) : 'introduction';
+$file = isset($_GET['file']) ? basename($_GET['file']) : 'installation';
 $filePath = $docsDir . $file . '.md';
 
 if (file_exists($filePath)) {
